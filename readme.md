@@ -22,9 +22,8 @@ También puedes acceder al archivo JSON generado:
 
 ## Diagrama de la base de datos
 
-[![DB Diagram](docs/db-diagram.png)](https://dbdiagram.io/d/API-Books-DB-6924ead3228c5bbc1a52f55e)
-
-Haz click en la imagen para abrir el diagrama interactivo en dbdiagram.
+El diagrama ER público está disponible en dbdiagram. Puedes explorarlo aquí:
+[API Books DB en dbdiagram](https://dbdiagram.io/d/API-Books-DB-6924ead3228c5bbc1a52f55e)
 ---
 
 ## ⚙️ Instalación
