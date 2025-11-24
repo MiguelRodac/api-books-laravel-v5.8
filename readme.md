@@ -146,4 +146,4 @@ curl -X POST http://localhost:8000/api/books \
 ## ✅ Conclusión
 La API está lista para pruebas y despliegue.  
 Con este README y documentación, cualquier reviewer puede levantar el proyecto y probar los endpoints fácilmente.
-```
+
