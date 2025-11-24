@@ -4,10 +4,11 @@
 ## 🚀 Descripción
 API RESTful construida en **Laravel 5.8** para la gestión de **autores** y **libros**.  
 Incluye:
-- 🔐 Autenticación con **JWT**
-- ✅ Validaciones robustas
-- 🧩 Controladores organizados
-- 📦 Respuestas uniformes en **JSON**
+
+- 🔐 **Autenticación JWT** para proteger rutas y gestionar sesiones
+- ✅ **Validaciones robustas** con Requests personalizados
+- 🧩 **Controladores organizados** por recurso (`Author`, `Book`, `User`)
+- 📦 **Respuestas uniformes en JSON** gracias al trait `ApiResponse`
 
 ---
 
