@@ -20,6 +20,13 @@ También puedes acceder al archivo JSON generado:
 
 ---
 
+## Diagrama de la base de datos
+
+[![DB Diagram](docs/db-diagram.png)](https://dbdiagram.io/d/API-Books-DB-6924ead3228c5bbc1a52f55e)
+
+Haz click en la imagen para abrir el diagrama interactivo en dbdiagram.
+---
+
 ## ⚙️ Instalación
 
 > ⚠️ **Importante**: Debes contar con una base de datos **PostgreSQL** previamente creada y corriendo.  
