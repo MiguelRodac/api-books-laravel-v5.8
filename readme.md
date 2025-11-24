@@ -12,18 +12,18 @@ Incluye:
 ---
 
 ## 📑 Documentación
-La documentación completa de la API está disponible en **Swagger UI**:
-```
-👉http://localhost:8000/api/documentation
-```
+La documentación completa de la API está disponible en **Swagger UI**:  
+👉 http://localhost:8000/api/documentation
 
-También puedes acceder al archivo JSON generado:
-``` 
+También puedes acceder al archivo JSON generado:  
 👉 http://localhost:8000/docs/api-docs.json
-```
+
 ---
 
 ## ⚙️ Instalación
+
+> ⚠️ **Importante**: Debes contar con una base de datos **PostgreSQL** previamente creada y corriendo.  
+> Asegúrate de que los datos de conexión en `.env` coincidan con tu configuración local.
 
 1. 📥 **Clonar el repositorio**
    ```bash
@@ -31,12 +31,17 @@ También puedes acceder al archivo JSON generado:
    cd api-books-laravel-v5.8
    ```
 
-2. 📦 **Instalar dependencias**
+2. 📝 **Copiar archivo de entorno**
+   ```bash
+   cp .env.example .env
+   ```
+
+3. 📦 **Instalar dependencias**
    ```bash
    composer install
    ```
 
-3. 🛠️ **Configurar `.env`**
+4. 🛠️ **Configurar `.env`**
    ```env
    APP_NAME=API_Books
    APP_ENV=local
@@ -54,17 +59,17 @@ También puedes acceder al archivo JSON generado:
    JWT_SECRET=tu_secret_generado
    ```
 
-4. 🔑 **Generar JWT Secret**
+5. 🔑 **Generar JWT Secret**
    ```bash
    php artisan jwt:secret
    ```
 
-5. 🗄️ **Ejecutar migraciones**
+6. 🗄️ **Ejecutar migraciones**
    ```bash
    php artisan migrate
    ```
 
-6. 🚀 **Levantar servidor**
+7. 🚀 **Levantar servidor**
    ```bash
    php artisan serve
    ```
@@ -147,3 +152,6 @@ curl -X POST http://localhost:8000/api/books \
 La API está lista para pruebas y despliegue.  
 Con este README y documentación, cualquier reviewer puede levantar el proyecto y probar los endpoints fácilmente.
 
+---
+
+¿Quieres que prepare el README paralelo para la API en TypeScript con la misma estética y estructura? Así ambos proyectos quedan perfectamente alineados.
